@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mypage</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <div id="container">
+    <div class="today">
+      <div class="date" id="date">
+        <!-- 날짜 -->
+      </div>
+      <div class="time" id="time">
+        <!-- 시각 -->
+      </div>
+    </div>
+    <div class="inner">
+      <div class="main">
+        <div>
+          <div id="profile">
+            <img src="image/dog.png" alt="dog">
+            <div>
+              <p>이름: 유혜은 <span>(멍멍이 좋아해요)</span></p>
+              <p>연락처: 010-4346-8816</p>
+              <p>이메일: hyeeun7483@naver.com</p>
+            </div>
+          </div>
+
+          <div id="pickture">
+            <img src="image/phone.jpg" al="phonecase">
+            <span>직접 디자인한 캐릭터로 만든<br>행운의 핸드폰 케이스 ♣</span>
+          </div>
+        </div>
+
+        <div>
+          <div class="mix">
+            <div id="weathers">
+              <div class="noti">
+                <span>❗️</span><br>위치정보를 가져올 수 없습니다.<br>위치설정을 확인해주세요
+              </div>
+  
+              <div class="current-weather">
+                <div class="weather-detail">
+                  <div class="info">
+                    <div>오늘 <div class="city">현재 위치</div></div> <div>날씨는 <div class="weather">현재 날씨</div></div>
+                  </div>
+                  <div class="info flex">
+                    <img class="icon" alt="">
+                    <div class="temp">현재 온도</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div id="quotes">
+              <p>오늘의 명언!</p>
+              <div class="quote" id="quote">
+                <!-- 명언 -->
+              </div>
+            </div>
+          </div>
+
+          <div id="canvas">
+            <!-- 캔버스 -->
+            <div class="text">💟 오늘의 낙서 💟</div>
+            <canvas width="440" height="343"></canvas>
+            <div class="menu">
+              <div class="item">
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+              </div>
+        
+              <div class="item">
+                <label for="width">Width</label>
+                <input
+                  type="number"
+                  name="width"
+                  id="width"
+                  min="1"
+                  max="10"
+                  value="5"
+                />
+              </div>
+              <button class="clear">Clear</button>
+              <button class="save">Save to Image</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="todo_list">
+          <p>오늘의 할 일 ☑️</p>
+          <div id="todo_footer">
+            <p>총 <span class="todo-count"></span>가지</p>
+            <button class="clear-all">전체삭제</button>
+          </div>
+          <form>
+            <input type="text" placeholder="오늘 해야하는 일들 메모하기!">
+            <button>등록</button>
+          </form>
+          <ul>
+            <!-- 
+            <li>
+              <span>텍스트</span><i class="fa-solid fa-xmark"></i>
+            </li>
+            -->
+          </ul>
+          <span>I Can Do It!</span>
+        </div>
+        <p class="pin"></p>
+        <p class="stapler"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/quote.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/weather.js" type="module"></script>
+  <script src="js/canvas.js"></script>
+  <script src="js/todo-list.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* --------Font CDN-------- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Noto Sans", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+/* font-family: "Nanum Myeongjo", serif; */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+/* font-family: "Nanum Pen Script", cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Raleway", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Exo", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: "Bebas Neue", sans-serif; */
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css');
+/* font-family: "NanumSquareAc", sans-serif; */
+
+/* --------Icon Font CDN-------- */
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+/* font-family: 'Material Symbols Outlined'; */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
+/* font-family: fontawesome; */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css'); 
+/* font-family: xeicon;  */
+
+/* <Gmarket 산스 OTF> 
+font-family: GmS_B, snas-serif;
+font-family: GmS_M, snas-serif;
+font-family: GmS_L, snas-serif;
+*/
+@font-face {
+  font-family: GmS_B;
+  src: url(../font/GmarketSansBold.woff) format('woff');
+}
+@font-face {
+  font-family: GmS_M;
+  src: url(../font/GmarketSansMedium.woff) format('woff');
+}
+@font-face {
+  font-family: GmS_L;
+  src: url(../font/GmarketSansLight.woff) format('woff');
+}
+
+/* <나눔스퀘어> 
+font-family: Nanum Square EB, snas-serif;
+font-family: Nanum Square B, snas-serif;
+font-family: Nanum Square M, snas-serif;
+font-family: Nanum Square L, snas-serif;
+*/
+@font-face {
+  font-family: Nanum Square EB;
+  src: url(../font/NanumSquareEB.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square B;
+  src: url(../font/NanumSquareB.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square M;
+  src: url(../font/NanumSquareR.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square L;
+  src: url(../font/NanumSquareL.woff) format('woff');
+}
+/* <나눔스퀘어 ac> 
+font-family: Nanum Square_acEB, snas-serif;
+font-family: Nanum Square_acB, snas-serif;
+font-family: Nanum Square_acM, snas-serif;
+font-family: Nanum Square_acL, snas-serif;
+*/
+@font-face {
+  font-family: Nanum Square_acEB;
+  src: url(../font/NanumSquare_acEB.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square_acB;
+  src: url(../font/NanumSquare_acB.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square_acM;
+  src: url(../font/NanumSquare_acR.woff) format('woff');
+}
+@font-face {
+  font-family: Nanum Square_acL;
+  src: url(../font/NanumSquare_acL.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MabinogiClassicR';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/MabinogiClassicR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
